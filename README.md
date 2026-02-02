@@ -86,17 +86,17 @@ Ejecuta el programa y cubre la siguiente tabla con los valores de cada variable 
 
 | Linea    | a   | b   | c   |    
 |:--------:|:---:|:---:|:---:|
-| Linea 4  |     |     |     |
-| Linea 5  |     |     |     |    
-| Linea 7  |     |     |     |  
-| Linea 8  |     |     |     |  
-| Linea 10 |     |     |     |  
-| Linea 11 |     |     |     |  
-| Linea 13 |     |     |     |  
+| Linea 4  |  0  |     |     |
+| Linea 5  |  0  |  0  |     |    
+| Linea 7  |  0  |  0  |     |  
+| Linea 8  |  6  |  0  |     |  
+| Linea 10 | "6" | "5" |     |  
+| Linea 11 |  6  | "5" |     |  
+| Linea 13 |  6  |  5  |     |  
 
+# En la línea 15 c se toma el valor de la suma de a y b, en este caso sería c = 11
 
 #### Ejercicio 2
-
 Utiliza el debugging para analizar el código de `src/main_e2.py`, busca los errores y corrígelos. Existen un total de 9 errores a solucionar. Además, responde a las siguientes preguntas:
 
 1. ¿Qué instrucciones estaban mal y por qué?
