@@ -9,6 +9,7 @@ def agregar_producto(nombre, precio, cantidad):
     inventario.append(nuevo_producto)
 
 def calcular_total():
+    hola=""
     total = 0
     for i in range(len(inventario) + 1):
         total += inventario[i]['precio']
